@@ -5,7 +5,7 @@ function logar() {
     if (usuario.length <= 0 || senha.length <= 0) {
         alert("Preencha os campos!")
     } else if (usuario == "b7k" && senha == "b7k") {
-        window.location.href = "index.html"
+        window.location.href = "site.html"
     } else {
         alert("Falha no login!")
     }
